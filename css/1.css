@@ -1,107 +1,29 @@
 body{
-	margin: 0;
+	background: #e4e4e4;
+}
+div{
+	    width: 1000px;
+    margin-left: auto;
+    background: darkseagreen;
+    margin-right: auto;
+    padding: 50px;
 }
 
 
-header{
-	
-	padding: 20px 0;
+img{
+	max-width: 100%;
 }
-.container{
-	width: 17000px;
-	margin: auto;
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-}
-.logo{
-	flex-basis: 20%
-	max-width:20%;
+h1{
+	    font-size: 35px;
+	        margin-top: 0;
 
 }
-.logo img{}
-
-nav{
-	flex-basis: 80%
-	max-width:80%;
+span{
+	color: #fbbbbb;
+    text-transform: uppercase;
+    text-shadow: 6px -21px 4px #706494
 }
-nav ul{
-	display: flex;
-	margin: 0;
-	padding: 0;
-	justify-content: flex-end;
-}
-nav ul li{
-	list-style-type: none;
-
-}
-nav ul li a{
-	color: black;
-	font-size: 20px;
-	text-decoration: none;
-	text-transform: capitalize;
-	padding: 15px;
-	display: block;
-}
-
-
-
-section{padding-top: 300px;
-    padding-bottom: 300px
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-position-y:top;}
-
-.section_one{
-	background-image: url(../images/po.jpg);
-    padding-top: 300px;
-    padding-bottom: 300px
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-position-y:top; 
-}
-
-.section_two{
-	background-image: url(../images/p9.jpg);
-}
-.section_three{
-	background-image: url(../images/p58.jpg);
-}
-
-.section_four{
-	background-image: url(../images/po6.jpg);
-}
-
-.section_five{
-	background-image: url(../images/po62.jpg);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- h1{
-	font-size: 60px;
-    color: white;
-    background: #ff214f;
-    max-width: 650px;
-    margin: auto;
-    padding: 30px;
-    text-align: center;
+p{
+	font-size: 28px;
+	line-height: 1.1
 }
