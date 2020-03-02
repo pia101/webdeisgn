@@ -1,57 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>POFO PROJECT</title>
-	<link rel="stylesheet" type="text/css" href="css/1.css">
+	<title>form</title>
+	<link rel="stylesheet" type="text/css" href="1.css">
 </head>
 <body>
-	<!----header start---->
+	<!----heaer start---->
+
 	<header>
-		<div class="container">
-			<div class="logo">
-				<a href="index.html">
-					<img src="images/logo.png " alt="logo" title="POFO">
-				</a>
-			</div>
-			<nav >
-				<ul>
-					<li>
-						<a href="index.html">HOME</a>
-					</li>
-					<li>
-						<a href="about.html">ABOUT</a>
-					</li>
-					<li>
-						<a href="gallery.html">GALLERY</a>
-					</li>
-				</ul>
-			</nav>
-		</div> 
+		<ul>
+			<li><a href="">Home</a></li>
+			<li><a href="">About</a></li>
+			<li><a href="">Service</a></li>
+			<img src="images/logo.png">
+			<li><a href="">Portfolio</a></li>
+			<li><a href="">Blog</a></li>
+			<li><a href="">Contact</a></li>
+		</ul>
 	</header>
-	<!----header end---->
-	<!----section one start---->
-	<section class="section-one"> <h1>Women's Collection</h1> </section>
 
-	<!----section one end---->
 
-	<!----section two start---->
-	<section class="section-two"> <h1>Men's Collection</h1> </section>
-	
-	<!----section two  end---->
-
-	<!----section three start---->
-	<section class="section-three"> <h1>Kid's Collection</h1> </section>
-	<!----section three end---->
-
-	<!----section four start---->
-	<section class="section-four"> <h1>Electronic's Collection</h1> </section>
-	<!----section four end---->
-
-	<!----section five start---->
-	<section class="section-five"> <h1>Grocery</h1> </section>
-	<!----section five end---->
+	<!----heaer end---->
+	<!----form section start---->
 
 
 
+
+	<section class="form-section">
+		<div class="form-box">
+			<h1>Sign Up</h1>
+			<p>Create a new account</p>
+
+			<form>
+				<input type="text" placeholder=" Write Your Full Name" class="input">
+				<input type="email" placeholder=" Write Your Email" class="input"> 
+
+				<input type="password" placeholder=" Enter password" class="input">
+				<input type="password" placeholder=" Enter Your password Again" class="input">
+				<label>Upload Your Image</label>
+				<input type="file" name="" class="input">
+				<br>
+				<b><label>Select Your Gender</label></b>
+				<input type="radio" name="gender" id="male"><label for="male">Male</label>
+				<input type="radio" name="gender" id="female" ><label for="female">Female</label>
+				<input type="radio" name="gender" id="others"><label for="others">Others</label>
+					<br>
+
+				<b><label>Select Your Hobbies</label></b>
+				<input type="checkbox"  id="traveling"><label for="traveling">Traveling</label>
+				<input type="checkbox"  id="watching movie"><label for="watching movie">watching movie</label>
+				<input type="checkbox"  id="racing"><label for="racing">racing</label>
+				
+				<br>
+				<input type="submit" value="submit">
+			</form>
+
+
+	</section>
+
+
+
+
+
+
+
+
+	<!----form section end---->
 </body>
 </html>
